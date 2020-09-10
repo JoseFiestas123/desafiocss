@@ -1,0 +1,113 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
+header{
+	width: 100%;
+	height: 39em;
+	background: #16BFFD;
+    background: -webkit-linear-gradient(to right, #CB3066, #16BFFD);
+    background: linear-gradient(to right, #CB3066, #16BFFD);
+    clip-path: polygon(0 0, 100% 0%, 100% 88%, 0 98%);
+
+}
+
+/*menu*/
+
+.main{
+	width: 100%;
+	height: 5em;
+    background: -webkit-linear-gradient(to right, #CB3066, #16BFFD);
+    background: linear-gradient(to right, #CB3066, #16BFFD);
+    box-shadow: 1px 0px 5px 0px #000;
+}
+
+
+.main h2{
+	font-family: 'Monda', sans-serif;
+	color: #fff;
+	font-size: 22px;
+	padding-top: 25px;
+	padding-left: 50px;
+	letter-spacing: 5px;
+}
+
+.main ul{
+	float: right;
+	margin-right: 5em;
+	margin-top: -20px;
+	
+}
+
+
+ul li {
+  font-family: 'Monda', sans-serif;
+  text-decoration: none;
+  display: inline-block;
+  padding-right: 40px;
+}
+
+
+a{
+	color: #fff;
+	font-size: 16px;
+}
+
+/*hover*/
+
+.main a:hover{
+	color: #585858;
+	transition: 0.1s;
+}
+
+/*img*/
+
+img{
+	width: 300px;
+    margin:10px auto;
+    display:block;
+}
+
+.title h1{
+	font-family: 'Monda', sans-serif;
+	font-size: 40px;
+	color: #fff;
+	text-align: center;
+}
+
+.title h3{
+   font-family: 'Monda', sans-serif;
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+}
+
+.linea{
+	width: 300px;
+	height: 5px;
+	background: #fff;
+	margin: 10px auto;
+}
+
+/*Hola*/
+
+
+.noso{
+	font-family: 'Monda', sans-serif;
+	font-size: 40px;
+	text-align: center;
+	color: #CB3066;
+	line-height: 100px;
+}
+
+p{
+	width: 650px;
+	font-family: 'Monda', sans-serif;
+	font-size: 15px;
+	text-align: center;
+	color:#242322 ;
+	float: right;
+	padding-right: 1em;
+}
